@@ -1,12 +1,16 @@
 Data model document, mostly made for me to test out gitkraken, but relevant info nonetheless.
 
 -WALL: Object
- - Users: Object
- 	- Name: Text
- 	- Picture: Image
- - Task: Object
- 	- Name: Text
- 	- Picture: Image
- 	- Assignees: User Objects
- 	- Status: Enum, one of: "Unassigned", "In Progress", "In Review", or "Done"
- - Settings: Object
+	- ID: String, used for routing in URLs
+	- Users: Object
+		- Name: String
+		- Picture: Image
+	- Task: Object
+		- Name: String
+		- Picture: Image
+		- Assignees: User Objects
+		- Status: Enum, one of: "Unassigned", "In Progress", "In Review", or "Done"
+	- Settings: Object
+		- Access Password: Text/hashed text/whatever
+		- Admin Password: Text/hashed text/whatever
+
