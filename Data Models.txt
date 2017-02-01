@@ -6,8 +6,7 @@ Data model document, mostly made for me to test out gitkraken, but relevant info
 		- Name: String
 		- Picture: Image
 	- Task: Object
-		- Name: String
-		- Picture: Image
+		- Text: String
 		- Assignees: User Objects
 		- Status: Enum, one of: "Unassigned", "In Progress", "In Review", or "Done"
 	- Settings: Object

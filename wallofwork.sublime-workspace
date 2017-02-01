@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Co",
+				"CodeSearchHandler"
+			],
+			[
+				"current",
+				"currentLength"
+			],
+			[
+				"mat",
+				"matchStr\tstatement"
+			],
+			[
+				"iVal",
+				"iValStr\tstatement"
+			],
+			[
+				"s1",
+				"s1Words\tstatement"
+			],
+			[
+				"imgur",
+				"imgurpython\tmodule"
+			],
+			[
+				"item",
+				"itemreqstr"
+			],
+			[
+				"guild",
+				"guildReqURL"
+			],
+			[
+				"gui",
+				"guildReqURL"
+			],
+			[
+				"blizz",
+				"blizzConnection"
+			],
+			[
+				"bli",
+				"blizzConnection"
+			],
+			[
+				"get_",
+				"get_new\tstatement"
+			],
+			[
+				"border",
+				"border-top-width"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"top",
+				"text-top"
+			],
+			[
+				"a",
+				"vertical-align"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"algin",
+				"text-align"
+			],
+			[
+				"border-b",
+				"border-bottom-width"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"Data",
+				"DatagramPacket"
+			],
+			[
+				"Da",
+				"DatagramPacket"
+			],
+			[
+				"target",
+				"targetLine"
+			],
+			[
+				"file",
+				"fileList"
+			],
+			[
+				"Dat",
+				"DatagramSocket"
+			],
+			[
+				"hand",
+				"handleClient"
+			],
+			[
+				"flag",
+				"flag"
+			],
+			[
+				"red",
+				"redThrow"
+			],
+			[
+				"pthread",
+				"pthread_mutex_unlock"
+			],
+			[
+				"cond",
+				"condRed"
+			],
+			[
+				"pthread_mute",
+				"pthread_mutex_unlock"
+			],
+			[
+				"not",
+				"notProc"
+			],
+			[
+				"new",
+				"newestNum"
+			],
+			[
+				"query",
+				"queryWord"
+			],
+			[
+				"word",
+				"word"
+			],
+			[
+				"re",
+				"releaseUninterruptibly"
+			],
+			[
+				"peter",
+				"peter"
+			],
+			[
+				"Paul",
+				"Paul"
+			],
+			[
+				"num",
+				"numThreads"
+			],
+			[
+				"File",
+				"FileNotFoundException"
+			],
+			[
+				"Pair",
+				"PairFinder"
+			],
+			[
+				"W",
+				"WORD_LEN"
+			],
+			[
+				"Wor",
+				"WordSet"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 141.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 118.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/eswar_000/Desktop/hellonode.js",
+		"/C/Users/eswar_000/Desktop/gitkraken/wallofwork/Data Models.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/process.py",
+		"/C/Users/eswar_000/Desktop/p.txt",
+		"/C/Users/eswar_000/Desktop/names_final.txt",
+		"/C/Users/eswar_000/Desktop/IBMID.txt",
+		"/C/Users/eswar_000/Desktop/2017-01-24-6.log",
+		"/C/Users/eswar_000/Desktop/important.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/return_of_magic_build.txt",
+		"/C/Users/eswar_000/Desktop/Bidness/TWC.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/return_of_magic_build.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/CYOA_list.txt",
+		"/C/Users/eswar_000/Desktop/GURPS Magic.txt",
+		"/C/Users/eswar_000/Downloads/paper (3).txt",
+		"/C/Users/eswar_000/Desktop/OW_comps.txt",
+		"/C/Users/eswar_000/Desktop/inportant.txt",
+		"/C/Users/eswar_000/Desktop/Guild/out.txt",
+		"/C/Users/eswar_000/Desktop/Guild/PostRankings.py",
+		"/C/Users/eswar_000/Desktop/MINECRAFT WORLD, DO NOT DELETE/backup_urls.txt",
+		"/C/Users/eswar_000/Desktop/process.py",
+		"/C/Users/eswar_000/Desktop/pitches.py",
+		"/C/Users/eswar_000/Desktop/MINECRAFT WORLD, DO NOT DELETE/readme.txt",
+		"/C/Users/eswar_000/Desktop/Asshole.java",
+		"/C/Users/eswar_000/AppData/Local/Temp/Rar$DIa0.065/how to update.txt",
+		"/C/Users/eswar_000/Desktop/Java-Plz.java",
+		"/C/Users/eswar_000/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/eswar_000/Desktop/resp1.txt",
+		"/C/Users/eswar_000/Desktop/names.csv",
+		"/C/Users/eswar_000/Downloads/names.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/DreamPrinceCYOA.txt",
+		"/C/Users/eswar_000/Desktop/resp2.txt",
+		"/C/Users/eswar_000/Desktop/resp3.txt",
+		"/C/Users/eswar_000/Desktop/resp4.txt",
+		"/C/Users/eswar_000/Desktop/resp5.txt",
+		"/C/Users/eswar_000/Desktop/resp6.txt",
+		"/C/Users/eswar_000/Desktop/resp_final.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/THE HOLY TEXT OF RYSS.txt",
+		"/C/Users/eswar_000/Desktop/resp.txt",
+		"/C/Users/eswar_000/Desktop/CodeSearchHandler.java",
+		"/C/Users/eswar_000/Desktop/armor etc.txt",
+		"/C/Users/eswar_000/Desktop/dumb notes.txt",
+		"/C/Users/eswar_000/Desktop/GitHubEx.java",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/keep.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/imgurbutt.py",
+		"/C/Users/eswar_000/Desktop/curl-7.50.3-win32-mingw/res.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/a/src.txt",
+		"/C/Users/eswar_000/Desktop/No Touchy/READ BEFORE TOUCHY.txt",
+		"/C/Users/eswar_000/Desktop/res.txt",
+		"/C/Users/eswar_000/Desktop/Comparer.java",
+		"/C/Users/eswar_000/Desktop/json_out.txt",
+		"/C/Users/eswar_000/Desktop/Algo_OLD.java",
+		"/C/Users/eswar_000/Desktop/Algo.java",
+		"/C/Users/eswar_000/Desktop/abc2.txt",
+		"/C/Users/eswar_000/Desktop/abc.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/Rfindmild.py",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/good.txt",
+		"/C/Users/eswar_000/Desktop/drivelists/movies.py",
+		"/C/Users/eswar_000/Desktop/drivelists/movies_v1.py",
+		"/C/Users/eswar_000/Desktop/drivelists/movies_v0.py",
+		"/C/Users/eswar_000/Desktop/movies.py",
+		"/C/Users/eswar_000/Desktop/General Stupidity/imgurbutt.py",
+		"/C/Users/eswar_000/Desktop/GURPS 4E/inventoryGen.py",
+		"/C/Users/eswar_000/Desktop/Guild/DDGB.py",
+		"/C/Users/eswar_000/Desktop/Guild/TWC",
+		"/C/Users/eswar_000/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/eswar_000/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/eswar_000/Desktop/opencv/gol.py",
+		"/C/Users/eswar_000/Desktop/General Stupidity/dumbot.py",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/Rfind.py",
+		"/C/Users/eswar_000/Desktop/imgurbutt.py",
+		"/C/Users/eswar_000/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/eswar_000/Desktop/GuildBot/out.txt",
+		"/C/Users/eswar_000/Desktop/GuildBot/PostRankings.py",
+		"/C/Users/eswar_000/Documents/GitHub/CSC522/CSC522/preprocess.py",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/g.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/Claymore champion idea.txt",
+		"/C/Users/eswar_000/Desktop/Wil 6",
+		"/C/Users/eswar_000/Desktop/preprocess.py",
+		"/C/Users/eswar_000/Desktop/test.py",
+		"/C/Users/eswar_000/Desktop/out.txt",
+		"/C/Users/eswar_000/Desktop/kmeans.R",
+		"/C/Users/eswar_000/Desktop/The Big One/COLORS.txt",
+		"/C/Riot Games/League of Legends/Config/game.cfg",
+		"/C/Users/eswar_000/Desktop/The Big One/Encounter Design.txt",
+		"/C/Users/eswar_000/Desktop/The Big One/Starting Point.txt",
+		"/C/Users/eswar_000/Desktop/Aliud-4/Items.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/c/readme.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/a.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/c/log.txt",
+		"/C/Users/eswar_000/Desktop/weeb.html",
+		"/C/Users/eswar_000/Desktop/treeBuilder.js",
+		"/C/users/eswar_~1/appdata/local/temp/sublime-sftp-browse-1450289022/NCSUEOS/afs/unity.ncsu.edu/users/e/epswartz/www/dendro.html",
+		"/C/users/eswar_~1/appdata/local/temp/sublime-sftp-browse-1449604447/NCSUEOS/afs/unity.ncsu.edu/users/e/epswartz/www/dendro.html",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/c/readme.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/c/log.txt",
+		"/C/Users/eswar_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/cgi-bin/assn5.cgi",
+		"/C/xampp/htdocs/assn5.html",
+		"/C/Users/eswar_000/Desktop/assn5.py",
+		"/C/Users/eswar_000/Desktop/readme.txt",
+		"/C/xampp/cgi-bin/assn5.py",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/RoS/s.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/s/p.txt",
+		"/C/Users/eswar_000/Desktop/for.cpp",
+		"/C/Users/eswar_000/Desktop/test.txt",
+		"/C/Users/eswar_000/Desktop/Sodoku.cpp",
+		"/C/Users/eswar_000/Desktop/School/CSC342/jsassignment/testing.txt",
+		"/C/Users/eswar_000/Desktop/School/CSC342/jsassignment/t.js",
+		"/C/Users/eswar_000/Desktop/School/CSC342/jsassignment/t.html",
+		"/C/Users/eswar_000/Desktop/GURPS 4E/Old Campaigns/Teruta/Names.txt",
+		"/C/Users/eswar_000/Desktop/General Stupidity/1928rg78192fe6/a.txt",
+		"/C/Users/eswar_000/Desktop/jumpbind.txt",
+		"/C/Users/eswar_000/Desktop/jumpbind.cfg",
+		"/C/users/eswar_~1/appdata/local/temp/sublime-sftp-browse-1443813407/NCSUEOS/afs/unity.ncsu.edu/users/e/epswartz/www/webclass.css",
+		"/C/users/eswar_~1/appdata/local/temp/sublime-sftp-browse-1443813354/NCSUEOS/afs/unity.ncsu.edu/users/e/epswartz/www/webclass.html",
+		"/C/Users/eswar_000/AppData/Local/Temp/Rar$DIa0.846/testing.txt",
+		"/C/Users/eswar_000/Desktop/testing.txt",
+		"/C/Users/eswar_000/AppData/Local/Temp/Rar$DIa0.896/testing.txt",
+		"/C/Users/eswar_000/AppData/Local/Temp/Rar$DIa0.365/testing.txt",
+		"/C/users/eswar_~1/appdata/local/temp/sublime-sftp-browse-1443808141/NCSUEOS/afs/unity.ncsu.edu/users/e/epswartz/www/webclass.html",
+		"/C/users/eswar_~1/appdata/local/temp/sublime-sftp-browse-1443808166/NCSUEOS/afs/unity.ncsu.edu/users/e/epswartz/www/webclass.css",
+		"/C/Users/eswar_000/Desktop/wslab4/ws9.txt",
+		"/C/Users/eswar_000/Desktop/wslab4/ws4-1.txt",
+		"/C/Users/eswar_000/Desktop/wslab4/ws4.txt",
+		"/C/Users/eswar_000/Downloads/jacoco.exec",
+		"/C/Users/eswar_000/Desktop/epswartzHW1.txt",
+		"/C/Users/eswar_000/Desktop/slide script.txt",
+		"/C/Users/eswar_000/Desktop/ws9.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"carole ",
+			"\\t",
+			"158740ecda6de223",
+			"download",
+			"score\": ",
+			"_easter",
+			"ignore",
+			"pep8_ignore",
+			"}",
+			"{",
+			"\"",
+			"id=dashed",
+			"RM",
+			"server",
+			"RM",
+			"count",
+			"pos = 88",
+			"lastBlue",
+			"lastRed",
+			"shm",
+			"gcd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"    ",
+			"]",
+			"[",
+			"]",
+			"\\\"",
+			"class=dashed"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 24.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 23.0
+	},
+	"pinned_build_system": "",
+	"project": "wallofwork.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
