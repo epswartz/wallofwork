@@ -3,6 +3,8 @@
 //TLDR it gives you a MongoDB wrapper/driver and you do it by making "models"
 
 var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
 
 //Schema for a user
 var userSchema = new Schema({

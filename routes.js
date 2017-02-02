@@ -12,6 +12,13 @@ module.exports = function(app) {
 
 	//API GETS--------------------------------------------------------
 
+	//testing call for the API itself
+	app.get('/api/test', function(req, res){
+		res.json({
+			message: "It's ALIVE!"
+		});
+	});
+
 
 /* TODO uncomment all this when ready 
 	//Get a wall
@@ -53,13 +60,13 @@ module.exports = function(app) {
 	//Front-End Routes---------------------------------------------
 	
 	//The page to display a wall is domain.com/[wall name]
-	app.get('/:wall_id', function(req, res){
-		res.sendfile('./wall.html');
-	});
+	//app.get('/:wall_id', function(req, res){
+		//res.sendfile('./wall.html');
+	//});
 
 	//The very front of the site
-	app.get('/', function(req, res) {
-		res.sendfile('./index.html'); //serve up the front of the site
-	});
+	//app.get('/', function(req, res) {
+		//res.sendfile('./index.html'); //serve up the front of the site
+	//});
 
 };
