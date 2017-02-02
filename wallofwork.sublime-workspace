@@ -183,8 +183,25 @@
 			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 265,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wallofwork.sublime-project",
+			"settings":
+			{
+				"buffer_size": 266,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -242,10 +259,18 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/eswar_000/Desktop/gitkraken/wallofwork/"
+	],
 	"file_history":
 	[
-		"/C/Users/eswar_000/Desktop/hellonode.js",
 		"/C/Users/eswar_000/Desktop/gitkraken/wallofwork/Data Models.txt",
+		"/C/Users/eswar_000/AppData/Local/Temp/Rar$DIa0.557/eslint.py",
+		"/C/Users/eswar_000/AppData/Local/Temp/Rar$DIa0.024/__init__.py",
+		"/C/Users/eswar_000/AppData/Local/Temp/Rar$DIa0.422/test.txt",
+		"/C/Users/eswar_000/Desktop/gitkraken/wallofwork/wallofwork.sublime-project",
+		"/C/Users/eswar_000/Desktop/hellonode.js",
 		"/C/Users/eswar_000/Desktop/General Stupidity/process.py",
 		"/C/Users/eswar_000/Desktop/p.txt",
 		"/C/Users/eswar_000/Desktop/names_final.txt",
@@ -367,11 +392,7 @@
 		"/C/users/eswar_~1/appdata/local/temp/sublime-sftp-browse-1443808166/NCSUEOS/afs/unity.ncsu.edu/users/e/epswartz/www/webclass.css",
 		"/C/Users/eswar_000/Desktop/wslab4/ws9.txt",
 		"/C/Users/eswar_000/Desktop/wslab4/ws4-1.txt",
-		"/C/Users/eswar_000/Desktop/wslab4/ws4.txt",
-		"/C/Users/eswar_000/Downloads/jacoco.exec",
-		"/C/Users/eswar_000/Desktop/epswartzHW1.txt",
-		"/C/Users/eswar_000/Desktop/slide script.txt",
-		"/C/Users/eswar_000/Desktop/ws9.txt"
+		"/C/Users/eswar_000/Desktop/wslab4/ws4.txt"
 	],
 	"find":
 	{
@@ -442,7 +463,36 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 368,
 						"regions":
 						{
 						},
@@ -456,13 +506,48 @@
 						"settings":
 						{
 							"incomplete_sync": null,
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Seti_UI/Prefs/Langs/npm JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wallofwork.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -507,7 +592,7 @@
 	{
 		"height": 23.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Run index.js",
 	"project": "wallofwork.sublime-project",
 	"replace":
 	{
