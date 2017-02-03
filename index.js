@@ -1,3 +1,15 @@
+/*
+        _.---._    /\\
+      ./'       "--`\//
+    ./     Ethan    o \
+   /./\  )______   \__ \
+  ./  / /\ \   | \ \  \ \
+     / /  \ \  | |\ \  \7
+      "     "    "  "       
+*/
+
+
+
 //Setup
 var express = require('express');
 var app = express(); //get express going

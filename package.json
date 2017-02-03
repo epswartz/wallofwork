@@ -9,6 +9,7 @@
   "author": "Ethan Swartzentruber",
   "license": "Unlicense",
   "dependencies": {
+    "basic-auth": "^1.1.0",
     "body-parser": "^1.16.0",
     "express": "^4.14.1",
     "mongodb": "^2.2.22",
