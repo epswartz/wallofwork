@@ -5,7 +5,7 @@
 //TODO The meat of the app is here, and is incomplete.
 //TODO Live updating might work by always returning the entire contents of the board in every response from every call
 //TODO Every single one of these functions, with the exception of wall creation, should go through BasicAuth before doing anything.
-
+//TODO A lot of these reutrn "Internal server error" when they can't find the wall. That shouldn't happen, it should give some other "no such wall".
 
 var Wall = require('./models/wall');
 var cfg = require('./config'); //load in our config.js
@@ -135,7 +135,7 @@ module.exports = function(app) {
 				var idx = results.users.push({
 					name: "Garrett",
 					imageId: "12345" 
-				});
+				}) - 1; //this minus one here results in us getting back the index of the one we just pushed
 
 				results.save(function(error){
 	               	if(error){
@@ -151,7 +151,7 @@ module.exports = function(app) {
 		});
 	});
 
-	/*
+	
 	//Add a task to a wall
 	app.post('/api/walls/:wall_id/tasks/create', function(req, res){
 
@@ -160,34 +160,35 @@ module.exports = function(app) {
 		for now that it will throw an error if something other than getting passed the data happens.
 		It's notable that I am NOT sure of the behavior when something has an overlap, or is a identical, etc.
 		*/
-		/*
 		Wall.findOne({'id' : req.params.wall_id }, function(error, results){
 
-			if(error){ //if we hit this, it won't continue after sending the 500
+			if(!results || error){ //if we hit this, it won't continue after sending the 500
 				console.log(error);
 				res.status(500).send('Internal server error.');
+			}else{
+
+				//results is the wall we are on, and req.body is the request body with the information in there
+
+				var idx = results.tasks.push({
+					text: "Garrett's task",
+					assignees: [],
+					status: "UNNASSIGNED"
+				}) - 1; //this minus one here results in us getting back the index of the one we just pushed
+
+				results.save(function(error){
+	               	if(error){
+	               		console.log(error);
+						res.status(500).send('Internal server error.');
+					}else{
+						res.json(results.tasks[idx]); //return the new user we just made? we might need to return the whole wall.
+	            	}
+	            });
+
 			}
-
-			//results is the wall we are on, and req.body is the request body with the information in there
-
-			var idx = results.tasks.push({
-				name: "Garrett",
-				imageId: "12345" 
-			});
-
-			results.save(function(error){
-               	if(error){
-               		console.log(error);
-					res.status(500).send('Internal server error.');
-				}
-				res.json({msg: "it worked! I think!"}); //return the new user we just made? we might need to return the whole wall.
-            });
-
-
 			
 		});
 	});
-	*/
+	
 
 	//API PUTS--------------------------------------------------------
 
@@ -202,7 +203,7 @@ module.exports = function(app) {
 
 	//Front-End Routes---------------------------------------------
 	
-	//The page to display a wall is domain.com/[wall name]
+	//The page to display a wall is at /w/[wall name]
 	app.get('/w/:wall_id', function(req, res){
 		console.log("Served request with wall viewing Front-End route.");
 		res.json({

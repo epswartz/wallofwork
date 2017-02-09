@@ -22,6 +22,7 @@ var taskSchema = new Schema({
 //Schema for an entire wall
 var wallSchema = new Schema({
 	id: String, //used for routing
+	name: String, //the name of the wall
 	accessPassword: String, //hashed version of the access password
 	adminPassword: String, //hashed version of the admin password
 
