@@ -88,7 +88,7 @@ module.exports = function(app) {
 
 	//Create a new wall
 	//TODO Passwords aren't a thing yet.
-	app.post('/api/walls/create', function(req, res){
+	app.post('/api/walls', function(req, res){
 		console.log("Hit the creation endpoint.");
 
 		var newId = makeId(cfg.idSize);
@@ -114,7 +114,7 @@ module.exports = function(app) {
 
 
 	//Add a user to a wall
-	app.post('/api/walls/:wall_id/users/create', function(req, res){
+	app.post('/api/walls/:wall_id/users', function(req, res){
 		console.log("attempting to add a user.");
 		/*
 		TODO I don't actually know that this can't be exploited, but I am assuming
@@ -153,7 +153,7 @@ module.exports = function(app) {
 
 	
 	//Add a task to a wall
-	app.post('/api/walls/:wall_id/tasks/create', function(req, res){
+	app.post('/api/walls/:wall_id/tasks', function(req, res){
 
 		/*
 		TODO I don't actually know that this can't be exploited, but I am assuming
@@ -192,12 +192,44 @@ module.exports = function(app) {
 
 	//API PUTS--------------------------------------------------------
 
-	//TODO
+	//Update a task on a wall.
+	app.put('/api/walls/:wall_id/tasks/:task_id', function(req, res){
+		//TODO
+	});
+
+	//Update a user on a wall.
+	app.put('/api/walls/:wall_id/users/:user_id', function(req, res){
+		//TODO
+	});
+
+
+	//Update a wall.
+	//I'm not sure if this is just supposed to be used for settings, or what.
+	//Edits that DONT have to do with the name or passwords of the wall just go through the update task/ update user endpoints.
+	app.put('/api/walls/:wall_id', function(req, res){
+		
+	});
 
 
 	//API DELETES-----------------------------------------------------
 
-	//TODO
+
+	//Delete a task from a wall
+	app.delete('/api/walls/:wall_id/tasks/:task_id', function(req, res){
+		//TODO
+	});
+
+	//Delete a user from a wall
+	app.delete('/api/walls/:wall_id/users/:user_id', function(req, res){
+		//TODO
+	});
+
+	//Delete a task from a wall
+	app.delete('/api/walls/:wall_id', function(req, res){
+		//TODO
+	});
+
+
 
 
 
