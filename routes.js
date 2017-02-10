@@ -5,7 +5,7 @@
 //TODO The meat of the app is here, and is incomplete.
 //TODO Live updating might work by always returning the entire contents of the board in every response from every call
 //TODO Every single one of these functions, with the exception of wall creation, should go through BasicAuth before doing anything.
-//TODO A lot of these reutrn "Internal server error" when they can't find the wall. That shouldn't happen, it should give some other "no such wall".
+//TODO A lot of these reutrn "Internal server error" when they can't find the wall. That shouldn't happen, it should give some other "no such wall". You can probably find instances of this with ctrl+f for " || error" and " || error1", etc.
 
 var Wall = require('./models/wall');
 var cfg = require('./config'); //load in our config.js
@@ -137,9 +137,9 @@ module.exports = function(app) {
 					imageId: "12345" 
 				}) - 1; //this minus one here results in us getting back the index of the one we just pushed
 
-				results.save(function(error){
-	               	if(error){
-	               		console.log(error);
+				results.save(function(error1){
+	               	if(error1){
+	               		console.log(error1);
 						res.status(500).send('Internal server error.');
 					}else{
 						res.json(results.users[idx]); //return the new user we just made? we might need to return the whole wall.
@@ -175,9 +175,9 @@ module.exports = function(app) {
 					status: "UNNASSIGNED"
 				}) - 1; //this minus one here results in us getting back the index of the one we just pushed
 
-				results.save(function(error){
-	               	if(error){
-	               		console.log(error);
+				results.save(function(error1){
+	               	if(error1){
+	               		console.log(error1);
 						res.status(500).send('Internal server error.');
 					}else{
 						res.json(results.tasks[idx]); //return the new user we just made? we might need to return the whole wall.
@@ -193,12 +193,30 @@ module.exports = function(app) {
 	//API PUTS--------------------------------------------------------
 
 	//Update a task on a wall.
-	app.put('/api/walls/:wall_id/tasks/:task_id', function(req, res){
-		//TODO
+	app.put('/api/tasks/:task_id', function(req, res){
+		Task.findById(req.params.task_id, function(error, results){
+			if(!results || error){
+				console.log(error);
+				res.status(500).send('Internal server error.');
+			}else{
+				results.text = 'Updated Task';
+				results.assignees = []; //still blank i guess
+				results.status = "PROGRESS";
+				results.save(function(error1, updated){
+
+					if(!updated || error1){
+						console.log(error);
+						res.status(500).send('Internal server error.');
+					}else{
+						res.json(updated);
+					}
+				});
+			}
+		});
 	});
 
 	//Update a user on a wall.
-	app.put('/api/walls/:wall_id/users/:user_id', function(req, res){
+	app.put('/api/users/:user_id', function(req, res){
 		//TODO
 	});
 
