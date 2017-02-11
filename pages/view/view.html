@@ -2,6 +2,7 @@
 <head>
 <title>Wall of Work (WIP)</title>
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
@@ -11,9 +12,25 @@
 </head>
 <body ng-app="viewPage" ng-cloak ng-controller="viewController">
 <md-sidenav md-component-id="left" class="md-sidenav-left" md-is-locked-open="true" >
-	<md-toolbar class="md-theme-indigo">
-        <h1 class="md-toolbar-tools">test!</h1>
-      </md-toolbar>
+	<md-toolbar>
+        <h1 class="md-toolbar-tools">NAME</h1>
+    </md-toolbar>
+    <md-button class="md-fab" aria-label="Users">
+    	<md-tooltip md-direction="right">Users</md-tooltip>
+        <i class="material-icons">people</i>
+	</md-button>
+	<md-button class="md-fab" aria-label="CopyLink">
+		<md-tooltip md-direction="right">Copy Link</md-tooltip>
+        <i class="material-icons">link</i>
+	</md-button>
+	<md-button class="md-fab" aria-label="Settings">
+		<md-tooltip md-direction="right">Settings</md-tooltip>
+        <i class="material-icons">settings</i>
+	</md-button>
+	<md-button class="md-fab" aria-label="Delete">
+		<md-tooltip md-direction="right">Delete Wall</md-tooltip>
+        <i class="material-icons">delete</i>
+	</md-button>
 </md-sidenav>
 </div>
 

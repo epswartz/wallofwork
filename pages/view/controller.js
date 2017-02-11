@@ -2,6 +2,35 @@
 
 angular.module('viewPage', ['ngMaterial'])
 
+
+	.config(function($sceDelegateProvider) {
+	  $sceDelegateProvider.resourceUrlWhitelist([
+	    // Adding 'self' to the whitelist, will allow requests from the current origin.
+	    'self',
+	    // Using double asterisks here, will allow all URLs to load.
+	    // We recommend to only specify the given domain you want to allow.
+	    '**'
+	  ]);
+	})
+
+	.config(function($mdThemingProvider) {
+ 		 $mdThemingProvider.theme('default')
+    	.primaryPalette('blue', {
+    		'default': '600'
+    	})
+    	.accentPalette('blue-grey', {
+    		'default': '700'
+    	})
+    	.backgroundPalette('grey')
+    	.warnPalette('red');
+	})
+
+	.config(function($mdIconProvider) {
+    $mdIconProvider
+       .iconSet('social', 'img/icons/sets/social-icons.svg', 24)
+       .defaultIconSet('img/icons/sets/core-icons.svg', 24);
+   })
+
 	.controller('viewController', function viewController($scope, $http, $mdSidenav){
 		
 		console.log("Hello from the actual real life CONTROLLER! :)");
