@@ -256,9 +256,7 @@ module.exports = function(app) {
 	//The page to display a wall is at /w/[wall name]
 	app.get('/w/:wall_id', function(req, res){
 		console.log("Served request with wall viewing Front-End route.");
-		res.json({
-			message: "Served request with wall viewing Front-End route for wall: " + req.params.wall_id
-		});
+		res.sendFile(__dirname + '/pages/view/view.html');
 	});
 
 	//The very front of the site

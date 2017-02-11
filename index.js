@@ -20,6 +20,9 @@ var bodyParser = require('body-parser'); //JSON body parser
 //Connect to MongoDB
 mongoose.connect(cfg.dbUrl);
 
+//I think this will make it serve shit in the pages dir? no clue.
+app.use(express.static('./pages')); 
+
 //use the json body parser
 app.use(bodyParser.json());
 
