@@ -36,10 +36,10 @@ angular.module('viewPage', ['ngMaterial'])
 
 		$scope.gridsterOpts = { //set options for angular-gridster
 			margins: [20, 20],
-			columns: 3,
+			columns: 4,
 			swapping: false,
-			minColumns: 3,
-			maxColumns: 3,
+			minColumns: 4,
+			maxColumns: 4,
 			outerMargin: false,
 			pushing: true,
 			floating: true,
