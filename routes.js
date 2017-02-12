@@ -95,6 +95,7 @@ module.exports = function(app) {
 
 		Wall.create({
 			id: newId, //used for routing
+			name: "Garrett's Wall",
 			accessPassword: "pwd1", //TODO obviously these should be from the request body not hardcoded
 			adminPassword: "pwd2", //TODO see above
 			users: [], //no users yet

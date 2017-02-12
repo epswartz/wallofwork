@@ -2,18 +2,21 @@
 <head>
 <title>Wall of Work (WIP)</title>
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+<link rel="stylesheet" href="../../lib/angular-gridster.min.css" />
+<link rel="stylesheet" href="../pages/view/view.css" />
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
-<script src="../view/controller.js"></script>
+<script src="../../lib/angular-gridster.js"></script>
+<script src="../pages/view/controller.js"></script>
 </head>
-<body ng-app="viewPage" ng-cloak ng-controller="viewController">
-<md-sidenav md-component-id="left" class="md-sidenav-left" md-is-locked-open="true" >
+<body ng-app="viewPage" ng-cloak ng-controller="viewController" layout="row">
+<md-list layout="column" class="menu">
 	<md-toolbar>
-        <h1 class="md-toolbar-tools">NAME</h1>
+        <h1 class="md-toolbar-tools">{{wall.name}}</h1>
     </md-toolbar>
     <md-button class="md-fab" aria-label="Users">
     	<md-tooltip md-direction="right">Users</md-tooltip>
@@ -31,7 +34,55 @@
 		<md-tooltip md-direction="right">Delete Wall</md-tooltip>
         <i class="material-icons">delete</i>
 	</md-button>
-</md-sidenav>
+</md-list>
+<md-list>
+   <md-toolbar class="md-hue-3 stage">
+      <div class="md-toolbar-tools">
+        <span>Unassigned</span>
+      </div>
+    </md-toolbar>	    
+	    <md-card gridster-item="item" ng-repeat="item in testTasks" ng-if="item.status === 0">
+			<md-card-content>
+				<p>{{item.text}}</p>
+			</md-card-content>
+		</md-card>
+</md-list>
+<md-list>
+   <md-toolbar class="md-hue-3 stage">
+      <div class="md-toolbar-tools">
+        <span>In Progress</span>
+      </div>
+    </md-toolbar>	    
+	    <md-card gridster-item="item" ng-repeat="item in testTasks" ng-if="item.status === 1">
+			<md-card-content>
+				<p>{{item.text}}</p>
+			</md-card-content>
+		</md-card>
+</md-list>
+<md-list>
+   <md-toolbar class="md-hue-3 stage">
+      <div class="md-toolbar-tools">
+        <span>In Review</span>
+      </div>
+    </md-toolbar>	    
+	    <md-card gridster-item="item" ng-repeat="item in testTasks" ng-if="item.status === 2">
+			<md-card-content>
+				<p>{{item.text}}</p>
+			</md-card-content>
+		</md-card>
+</md-list>
+<md-list>
+   <md-toolbar class="md-hue-3 stage">
+      <div class="md-toolbar-tools">
+        <span>Done</span>
+      </div>
+    </md-toolbar>	    
+	    <md-card gridster-item="item" ng-repeat="item in testTasks" ng-if="item.status === 3">
+			<md-card-content>
+				<p>{{item.text}}</p>
+			</md-card-content>
+		</md-card>
+</md-list>
 </div>
 
 </body>

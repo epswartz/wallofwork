@@ -5,11 +5,8 @@ angular.module('viewPage', ['ngMaterial'])
 
 	.config(function($sceDelegateProvider) {
 	  $sceDelegateProvider.resourceUrlWhitelist([
-	    // Adding 'self' to the whitelist, will allow requests from the current origin.
-	    'self',
-	    // Using double asterisks here, will allow all URLs to load.
-	    // We recommend to only specify the given domain you want to allow.
-	    '**'
+	    // Adding 'self' to the whitelist will allow requests from the current origin.
+	    'self'
 	  ]);
 	})
 
@@ -37,6 +34,34 @@ angular.module('viewPage', ['ngMaterial'])
 
 		$scope.taskData = {}; //i think i am using this to store data about a task being edited
 
+		$scope.gridsterOpts = { //set options for angular-gridster
+			margins: [20, 20],
+			columns: 3,
+			swapping: false,
+			minColumns: 3,
+			maxColumns: 3,
+			outerMargin: false,
+			pushing: true,
+			floating: true,
+			draggable: {
+				enabled: true
+
+			},
+			resizable: {
+				enabled: false,
+				handles: ['n', 'e', 's', 'w', 'se', 'sw']
+			}
+		};
+
+		$scope.customItemMap = { //maps the contents of task objects to angular-gridster
+		    sizeX: 1,
+		    sizeY: 1,
+		    row: 0,
+		    col: 'item.status',
+		    minSizeY: '1',
+		    maxSizeY: '1'
+		};
+
 		//at the beginning, we just get the wall.
 		var idx = window.location.pathname.slice(-1 * 8); //get the last 8 characters in the URL, which should be the wall's id
 
@@ -50,7 +75,30 @@ angular.module('viewPage', ['ngMaterial'])
 		
 			.error(function(data){
 				console.log("Failed to get wall " + idx);
-			});
+		});
+
+		$scope.testTasks = [{
+			text: "U0", //text on the task note
+			assignees: [], //it's possible this should be String IDs instead of objects. Not sure
+			status: 0
+		}, 
+		{
+			text: "U1", //text on the task note
+			assignees: [], //it's possible this should be String IDs instead of objects. Not sure
+			status: 0
+		},{
+			text: "P0", //text on the task note
+			assignees: [], //it's possible this should be String IDs instead of objects. Not sure
+			status: 1
+		},{
+			text: "R0", //text on the task note
+			assignees: [], //it's possible this should be String IDs instead of objects. Not sure
+			status: 2
+		},{
+			text: "D0", //text on the task note
+			assignees: [], //it's possible this should be String IDs instead of objects. Not sure
+			status: 3
+		},];
 
 
 		$scope.createTask = function(){
